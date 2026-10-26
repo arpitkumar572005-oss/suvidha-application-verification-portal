@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "bb0d6e4d-187b-4e97-a47c-83c6702a9f4b",
+    "violationCode": "VIOL-2026-002",
+    "category": "Identity Consistency",
+    "applicationId": "app-sample-pension-02",
+    "applicationRef": "APP-2026-0150",
+    "relatedRule": "RULE_DOC_VALIDITY",
+    "severity": "Medium",
+    "status": "Awaiting Recheck",
+    "evidenceRef": "Income certificate validity lapsed beyond 12-month limit.",
+    "remarks": "Returned to reviewer for mandatory citizen re-upload.",
+    "assignedOfficer": "Sunil Verma",
+    "createdAt": "2026-10-26T19:22:10.453Z",
+    "updatedAt": "2026-10-26T19:22:10.453Z"
+  },
+  {
+    "_id": "54496b03-a8b6-45ae-8258-593420276023",
+    "violationCode": "VIOL-2026-001",
+    "category": "Process Adherence",
+    "applicationId": "app-arpit-2026-0152",
+    "applicationRef": "APP-2026-0152",
+    "relatedRule": "RULE_MANDATORY_DOCS",
+    "severity": "High",
+    "status": "Open",
+    "evidenceRef": "Mandatory Income Certificate expired on 13-10-2026.",
+    "remarks": "Referred to compliance audit queue for supervisory review.",
+    "assignedOfficer": "Sunil Verma",
+    "createdAt": "2026-10-26T19:22:10.450Z",
+    "updatedAt": "2026-10-26T19:22:10.450Z"
+  }
+]

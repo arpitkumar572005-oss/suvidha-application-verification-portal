@@ -1,0 +1,14 @@
+{
+  "name": "suvidha-portal-root",
+  "version": "1.0.0",
+  "description": "Suvidha | AI-Powered Application Validation, Document Authentication and Compliance Verification Portal",
+  "scripts": {
+    "start": "npm run start:backend",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && npm test",
+    "test": "npm run test:backend"
+  }
+}

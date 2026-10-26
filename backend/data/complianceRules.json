@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "2d9756a7-c320-44ba-8384-008ed44ae70f",
+    "ruleCode": "RULE_REQUIRED_FIELDS",
+    "name": "Application Form Completeness",
+    "category": "Form Integrity",
+    "severity": "Low",
+    "enabled": true,
+    "version": "1.0",
+    "isSampleRule": true,
+    "description": "Ensures essential fields including reference number, contact details, and bank account info are present.",
+    "createdAt": "2026-10-23T12:28:22.036Z",
+    "updatedAt": "2026-10-23T12:28:22.036Z"
+  },
+  {
+    "_id": "a33a1edc-0f6a-4f90-9f31-295976bd2c10",
+    "ruleCode": "RULE_INCOME_CEILING",
+    "name": "Assistance Scheme Income Ceiling Rule",
+    "category": "Financial Eligibility",
+    "severity": "Medium",
+    "enabled": true,
+    "version": "1.0",
+    "isSampleRule": true,
+    "description": "Verifies that declared and certified annual family income is within demo assistance scheme limits (Rs. 2,50,000).",
+    "createdAt": "2026-10-23T12:28:22.034Z",
+    "updatedAt": "2026-10-23T18:11:58.363Z"
+  },
+  {
+    "_id": "302f60a8-38be-4979-a5f8-a9401a8a285f",
+    "ruleCode": "RULE_NAME_CONSISTENCY",
+    "name": "Cross-Document Identity Consistency",
+    "category": "Identity Verification",
+    "severity": "Medium",
+    "enabled": true,
+    "version": "1.0",
+    "isSampleRule": true,
+    "description": "Checks that the applicant name matches across all provided documents.",
+    "createdAt": "2026-10-23T12:28:22.033Z",
+    "updatedAt": "2026-10-23T12:28:22.033Z"
+  },
+  {
+    "_id": "ec9cf6ca-dff0-43c6-b70e-7a47027a3a4c",
+    "ruleCode": "RULE_DOC_VALIDITY",
+    "name": "Document Validity and Expiration Assessment",
+    "category": "Validity Period",
+    "severity": "High",
+    "enabled": true,
+    "version": "1.1",
+    "isSampleRule": true,
+    "description": "Checks that income certificate has not passed its recorded validity expiry date.",
+    "createdAt": "2026-10-23T12:28:22.032Z",
+    "updatedAt": "2026-10-23T12:28:22.032Z"
+  },
+  {
+    "_id": "818628bc-e153-4185-abce-dd73973d807f",
+    "ruleCode": "RULE_MANDATORY_DOCS",
+    "name": "Mandatory Supporting Documents Checklist",
+    "category": "Document Presence",
+    "severity": "High",
+    "enabled": true,
+    "version": "1.2",
+    "isSampleRule": true,
+    "description": "Verifies that Identity Proof and Income Certificate are attached to the application.",
+    "createdAt": "2026-10-23T12:28:22.030Z",
+    "updatedAt": "2026-10-23T12:28:22.030Z"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "_id": "54df5421-df49-4295-9c29-2cdb55889621",
+    "code": "SRV-KISAN-LAND",
+    "name": "Kisan Agriculture Land Record Support",
+    "category": "Agriculture & Farmers Welfare",
+    "description": "Farmer subsidy and PM-KISAN DBT benefit enablement through digital land ownership verification.",
+    "eligibility": "Cultivable land ownership recorded in state revenue records (Khasra / Khatauni).",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Farmer Aadhaar Card",
+        "mandatory": true
+      },
+      {
+        "key": "Land Ownership Record",
+        "label": "Record of Rights (RoR / 7-12 / Khasra-Khatauni)",
+        "mandatory": true
+      },
+      {
+        "key": "Bank Passbook",
+        "label": "Kisan Credit Card (KCC) or Bank Passbook",
+        "mandatory": true
+      },
+      {
+        "key": "Crop Sowing Certificate",
+        "label": "Patwari / Village Revenue Officer Sowing Record",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.0",
+    "createdAt": "2026-10-26T19:22:10.449Z",
+    "updatedAt": "2026-10-26T19:22:10.449Z"
+  },
+  {
+    "_id": "c130e991-2220-48b9-860b-1dbba26a3696",
+    "code": "SRV-DISABILITY-ASST",
+    "name": "Disability Welfare Assistance",
+    "category": "Empowerment of Persons with Disabilities",
+    "description": "Financial allowance and assistive device facilitation for certified persons with benchmark disabilities.",
+    "eligibility": "Valid Unique Disability ID (UDID) or CMO certificate indicating 40%+ disability.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "National ID / Aadhaar",
+        "mandatory": true
+      },
+      {
+        "key": "Disability Certificate",
+        "label": "UDID Card or CMO Medical Board Certificate",
+        "mandatory": true
+      },
+      {
+        "key": "Bank Passbook",
+        "label": "Savings Bank Account Passbook",
+        "mandatory": true
+      },
+      {
+        "key": "Income Certificate",
+        "label": "Family Income Certificate",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.0",
+    "createdAt": "2026-10-26T19:22:10.446Z",
+    "updatedAt": "2026-10-26T19:22:10.446Z"
+  },
+  {
+    "_id": "2ea89a59-bfe1-487f-b322-d1c441e8978e",
+    "code": "SRV-SENIOR-PENSION",
+    "name": "Senior Citizen Pension Scheme",
+    "category": "Social Security",
+    "description": "Monthly DBT assistance for citizens aged 60 and above belonging to vulnerable economic strata.",
+    "eligibility": "Age 60 years or above. Family income below statutory ceiling.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Aadhaar Card (Showing Full DOB)",
+        "mandatory": true
+      },
+      {
+        "key": "Age Proof Certificate",
+        "label": "School Leaving / Birth Certificate / Voter ID",
+        "mandatory": true
+      },
+      {
+        "key": "Bank Passbook",
+        "label": "Individual Savings Passbook (Active DBT)",
+        "mandatory": true
+      },
+      {
+        "key": "Income Certificate",
+        "label": "Non-Taxpayer Declaration / Income Proof",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.0",
+    "createdAt": "2026-10-26T19:22:10.444Z",
+    "updatedAt": "2026-10-26T19:22:10.444Z"
+  },
+  {
+    "_id": "e14208a6-d041-4617-8faf-9fb8866259ec",
+    "code": "SRV-TRADE-LICENSE",
+    "name": "Trade License & Premise NOC",
+    "category": "Urban Local Bodies",
+    "description": "Municipal operational license for commercial establishments, retail counters, and service offices.",
+    "eligibility": "Compliant business premise with required fire and safety clearance.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Proprietor Identity Proof",
+        "mandatory": true
+      },
+      {
+        "key": "Business Premise Proof",
+        "label": "Rent Deed or Property Tax Receipt",
+        "mandatory": true
+      },
+      {
+        "key": "Fire & Safety NOC",
+        "label": "Fire Safety Clearance Certificate",
+        "mandatory": true
+      },
+      {
+        "key": "GST Registration Certificate",
+        "label": "GSTIN / Udyam MSME Certificate",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.3",
+    "createdAt": "2026-10-26T19:22:10.441Z",
+    "updatedAt": "2026-10-26T19:22:10.441Z"
+  },
+  {
+    "_id": "ec5f8b0c-eac5-4a7a-b864-e7095a2f7a11",
+    "code": "SRV-DOMICILE-CERT",
+    "name": "Domicile Certificate",
+    "category": "General Administration",
+    "description": "Certificate verifying continuous legal residence in the state for administrative and reservation quotas.",
+    "eligibility": "Minimum 10 years continuous residence or state birth record.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Applicant Identity Proof",
+        "mandatory": true
+      },
+      {
+        "key": "Domicile Certificate",
+        "label": "Electricity / Water Bill (Continuous 3 Yrs)",
+        "mandatory": true
+      },
+      {
+        "key": "Academic Marksheet",
+        "label": "School Leaving Certificate / Marksheet",
+        "mandatory": true
+      },
+      {
+        "key": "Land Revenue Record",
+        "label": "Property Tax / RoR Record",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.0",
+    "createdAt": "2026-10-26T19:22:10.438Z",
+    "updatedAt": "2026-10-26T19:22:10.438Z"
+  },
+  {
+    "_id": "faac2341-5908-4cca-bd28-5adb74351143",
+    "code": "SRV-CASTE-CERT",
+    "name": "Caste Certificate",
+    "category": "Social Justice & Empowerment",
+    "description": "Official certification of social reservation category (SC, ST, OBC) based on lineage documentation.",
+    "eligibility": "Proof of ancestral state domicile and paternal caste documentation.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Identity Proof",
+        "mandatory": true
+      },
+      {
+        "key": "Father Caste Certificate",
+        "label": "Paternal Blood Relative Caste Certificate",
+        "mandatory": true
+      },
+      {
+        "key": "Domicile Certificate",
+        "label": "Continuous Domicile Proof (10+ Years)",
+        "mandatory": true
+      },
+      {
+        "key": "Land Revenue Record",
+        "label": "Ancestral Land Record / Khatauni",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.1",
+    "createdAt": "2026-10-26T19:22:10.435Z",
+    "updatedAt": "2026-10-26T19:22:10.435Z"
+  },
+  {
+    "_id": "2005f5bd-2b59-4357-bb11-bd37f7ad9c13",
+    "code": "SRV-INCOME-CERT",
+    "name": "Income Certificate",
+    "category": "Revenue & Land Records",
+    "description": "Statutory certificate issued by Executive Magistrate / Tehsildar certifying annual household income.",
+    "eligibility": "State permanent resident or domicile. Verification by local revenue inspector / Patwari.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Identity Proof",
+        "mandatory": true
+      },
+      {
+        "key": "Ration Card",
+        "label": "Ration Card or BPL Survey Record",
+        "mandatory": true
+      },
+      {
+        "key": "Income Certificate",
+        "label": "Previous Assessment / Salary Slip",
+        "mandatory": true
+      },
+      {
+        "key": "Bank Passbook",
+        "label": "Bank Statement / Passbook",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.0",
+    "createdAt": "2026-10-26T19:22:10.432Z",
+    "updatedAt": "2026-10-26T19:22:10.432Z"
+  },
+  {
+    "_id": "c4f1abd4-7908-4b9e-b0ac-2426121010f8",
+    "code": "SRV-SCHOLARSHIP",
+    "name": "Scholarship Assistance",
+    "category": "Education & Welfare",
+    "description": "Higher education merit-cum-means financial grant for eligible undergraduate and postgraduate students.",
+    "eligibility": "Annual family income below Rs. 2,50,000. Minimum 60% marks in previous examination.",
+    "requiredDocuments": [
+      {
+        "key": "Identity Proof",
+        "label": "Identity Proof (Aadhaar / Voter ID)",
+        "mandatory": true
+      },
+      {
+        "key": "Income Certificate",
+        "label": "Income Certificate (Revenue Department)",
+        "mandatory": true
+      },
+      {
+        "key": "Academic Marksheet",
+        "label": "Academic Marksheet / Transcript",
+        "mandatory": true
+      },
+      {
+        "key": "Bank Passbook",
+        "label": "Bank Passbook (DBT Active)",
+        "mandatory": false
+      }
+    ],
+    "acceptedFormats": [
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "maxFileSizeMB": 5,
+    "enabled": true,
+    "version": "1.2",
+    "createdAt": "2026-10-26T19:22:10.427Z",
+    "updatedAt": "2026-10-26T19:22:10.427Z"
+  }
+]

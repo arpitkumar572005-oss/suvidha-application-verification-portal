@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "user-rajesh-patel-04",
+    "name": "Rajesh Patel",
+    "email": "admin@suvidha.gov.demo",
+    "password": "$2a$10$fQq9hSM0KvDOt4IQLziFjOFhzY1m9WjEpP9eTHIZDyZ2CDt0HzSiO",
+    "role": "admin",
+    "phone": "+91 98765 00003",
+    "organization": "National e-Governance Demonstration Lab",
+    "createdAt": "2026-10-23T12:28:22.029Z",
+    "updatedAt": "2026-10-23T12:28:22.029Z"
+  },
+  {
+    "_id": "user-sunil-verma-03",
+    "name": "Sunil Verma",
+    "email": "compliance@suvidha.gov.demo",
+    "password": "$2a$10$fQq9hSM0KvDOt4IQLziFjOFhzY1m9WjEpP9eTHIZDyZ2CDt0HzSiO",
+    "role": "compliance",
+    "phone": "+91 98765 00002",
+    "organization": "Compliance & Regulatory Standards Directorate",
+    "createdAt": "2026-10-23T12:28:22.028Z",
+    "updatedAt": "2026-10-23T12:28:22.028Z"
+  },
+  {
+    "_id": "user-priya-sharma-02",
+    "name": "Priya Sharma",
+    "email": "reviewer@suvidha.gov.demo",
+    "password": "$2a$10$fQq9hSM0KvDOt4IQLziFjOFhzY1m9WjEpP9eTHIZDyZ2CDt0HzSiO",
+    "role": "reviewer",
+    "phone": "+91 98765 00001",
+    "organization": "Department of Higher Education & Welfare Services",
+    "createdAt": "2026-10-23T12:28:22.026Z",
+    "updatedAt": "2026-10-23T12:28:22.026Z"
+  },
+  {
+    "_id": "user-arpit-kumar-01",
+    "name": "Arpit Kumar",
+    "email": "arpit@example.com",
+    "password": "$2a$10$fQq9hSM0KvDOt4IQLziFjOFhzY1m9WjEpP9eTHIZDyZ2CDt0HzSiO",
+    "role": "applicant",
+    "phone": "+91 98765 43210",
+    "organization": "State Institute of Engineering and Technology",
+    "createdAt": "2026-10-23T12:28:22.023Z",
+    "updatedAt": "2026-10-23T12:28:22.023Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "c0b929d5-3ef8-4db6-a195-b84ccf2df160",
+    "userId": "user-rajesh-patel-04",
+    "role": "admin",
+    "title": "System Health Optimal",
+    "message": "All services, OCR worker processes, and persistent data stores are operating normally.",
+    "type": "success",
+    "link": "/admin/dashboard",
+    "read": true,
+    "createdAt": "2026-10-26T19:22:10.467Z",
+    "updatedAt": "2026-10-26T19:22:10.467Z"
+  },
+  {
+    "_id": "c823f8ad-3927-4e71-ba9f-17449b031582",
+    "userId": "user-sunil-verma-03",
+    "role": "compliance",
+    "title": "Compliance Audit Required",
+    "message": "Supervisory regulatory compliance review cases are pending audit.",
+    "type": "warning",
+    "link": "/compliance/dashboard",
+    "read": false,
+    "createdAt": "2026-10-26T19:22:10.462Z",
+    "updatedAt": "2026-10-26T19:22:10.462Z"
+  },
+  {
+    "_id": "8f150999-1f89-4b9d-8456-3a2b0f808a29",
+    "userId": "user-priya-sharma-02",
+    "role": "reviewer",
+    "title": "New Applications Assigned",
+    "message": "Applications are awaiting your document verification and eligibility determination.",
+    "type": "info",
+    "link": "/reviewer/dashboard",
+    "read": true,
+    "createdAt": "2026-10-26T19:22:10.459Z",
+    "updatedAt": "2026-10-26T20:58:34.637Z"
+  },
+  {
+    "_id": "739eeb04-2926-4bc0-af39-f66d304b0e17",
+    "userId": "user-arpit-kumar-01",
+    "role": "applicant",
+    "title": "Action Required",
+    "message": "Please review verification findings. A replacement document may be requested.",
+    "type": "action_required",
+    "link": "/applicant/dashboard",
+    "read": true,
+    "createdAt": "2026-10-26T19:22:10.456Z",
+    "updatedAt": "2026-10-26T19:59:52.368Z"
+  },
+  {
+    "_id": "72f91003-f258-4054-bace-a728dd15bbfa",
+    "userId": "user-arpit-kumar-01",
+    "role": "applicant",
+    "title": "Application Received",
+    "message": "Your application APP-2026-0152 for Scholarship Assistance is under preliminary review.",
+    "type": "info",
+    "link": "/applications/app-arpit-2026-0152",
+    "read": true,
+    "createdAt": "2026-10-26T19:22:10.454Z",
+    "updatedAt": "2026-10-26T19:59:52.373Z"
+  }
+]
